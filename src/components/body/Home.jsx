@@ -90,7 +90,7 @@ export default function Home() {
                 : "scale-y-0 delay-200"
             } transition-all ease-in-out duration-200 origin-top`}
           >
-            {t("my name is")}
+            {t("I am")}
           </h1>
           <h1
             className={`lg:text-5xl text-2xl font-bold ${
@@ -108,7 +108,7 @@ export default function Home() {
                 : "scale-y-0 delay-0"
             } transition-all ease-in-out duration-200  origin-top`}
           >
-            {t("I'm backend dev")}
+            {t("I am a backend developer and DevOps engineer.")}
           </h1>
         </div>
       </div>

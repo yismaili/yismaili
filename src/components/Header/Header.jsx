@@ -190,17 +190,17 @@ export default function Header() {
           <ul className="flex gap-5">
             <li className="font-bold px-4 py-2 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors duration-100 rounded-md ease-in-out">
               <button onClick={() => HandelTransition("/about")}>
-                {t("header_about")}
+                {t("About")}
               </button>
             </li>
             <li className="font-bold px-4 py-2 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors duration-100 rounded-md ease-in-out">
               <button onClick={() => HandelTransition("/work")}>
-                {t("work")}
+                {t("Projects")}
               </button>
             </li>
             <li className="font-bold px-4 py-2 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors duration-100 rounded-md ease-in-out">
               <button onClick={() => HandelTransition("/contact")}>
-                {t("header_contact")}
+                {t("Contact")}
               </button>
             </li>
             {isBlogAvailalble && (
