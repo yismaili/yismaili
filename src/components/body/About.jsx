@@ -4,6 +4,7 @@ import ExperienceCard from "./ExperienceCard";
 import { FiArrowUpRight } from "react-icons/fi";
 import resen from "../../asset/yismaili.pdf";
 import resfr from "../../asset/yismaili.pdf";
+import me from "../../asset/yismaili-1.jpg";
 import FileSaver from "file-saver";
 import { useTranslation } from "react-i18next";
 
@@ -78,13 +79,19 @@ export default function About() {
             } transition-all duration-500 ease-in-out delay-100`}
           >
             {localStorage.getItem("lang") === "fr" ? (
-              <>{t("about").substring(0, 5)}</>
+              <>{t("about").substring(0, 10)}</>
             ) : (
               <>
-                AB<span className="left-half">O</span>
+
+                {t("about").substring(0, 5)}
+        
               </>
             )}
           </h1>
+            <img
+                src={me}
+                alt="younes ismaili's image"
+            />
         </div>
         <div className="h-1/2">
           <h1
@@ -93,10 +100,12 @@ export default function About() {
             } transition-all duration-500 ease-in-out delay-200`}
           >
             {localStorage.getItem("lang") === "fr" ? (
-              <>{t("about").substring(5)}</>
+              <>{t("about").substring(0, 10)}</>
             ) : (
               <>
-                <span className="right-half">O</span>UT
+                
+                  {t("about").substring(0, 5)}
+           
               </>
             )}
           </h1>
