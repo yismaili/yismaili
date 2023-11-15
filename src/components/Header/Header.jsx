@@ -54,7 +54,7 @@ export default function Header() {
       setLang(localStorage.getItem("lang"));
     }
     i18n.changeLanguage(localStorage.getItem("lang"));
-  }, []);
+  }, [i18n]);
 
   useEffect(() => {
     const html = document.querySelector("html");
@@ -81,7 +81,7 @@ export default function Header() {
   }, [location.pathname]);
 
   useEffect(() => {
-    if (openlilmenu == false) {
+    if (openlilmenu === false) {
       setButtonStyle({ transform: "scaleY(1)" });
     }
   }, [openlilmenu]);
@@ -170,7 +170,7 @@ export default function Header() {
           <button onClick={() => HandelTransition("/")}>
             <img
               className="w-10"
-              src={theme == "dark" ? LOGOWHITE : LOGO}
+              src={theme === "dark" ? LOGOWHITE : LOGO}
               alt="younes ismaili's LOGO"
             />
           </button>
@@ -275,29 +275,29 @@ export default function Header() {
       >
         <div className="flex gap-2">
           <button
-            disabled={theme == "dark"}
+            disabled={theme === "dark"}
             style={
-              theme == "dark"
+              theme === "dark"
                 ? buttonSelectedStyleForTheme
                 : buttonNotSelectedStyleForTheme
             }
             onClick={handleThemeSwitch}
             className={`font-bold py-2 px-4 border-2 rounded-md border-black hover:bg-black ${
-              theme == "dark" ? "bg-white text-black" : ""
+              theme === "dark" ? "bg-white text-black" : ""
             } hover:text-white dark:border-white dark:hover:bg-bg-light dark:hover:text-black origin-bottom transition-all duration-300 ease-in-out`}
           >
             <BiMoon />
           </button>
           <button
-            disabled={theme == "light"}
+            disabled={theme === "light"}
             style={
-              theme == "light"
+              theme === "light"
                 ? buttonSelectedStyleForTheme
                 : buttonNotSelectedStyleForTheme
             }
             onClick={handleThemeSwitch}
             className={`font-bold py-2 px-4 border-2 rounded-md border-black hover:bg-black ${
-              theme == "light" ? "bg-black text-white" : ""
+              theme === "light" ? "bg-black text-white" : ""
             } hover:text-white dark:border-white dark:text-white dark:hover:bg-bg-light dark:hover:text-black origin-bottom transition-all duration-300 ease-in-out`}
           >
             <BiSun />
@@ -305,15 +305,15 @@ export default function Header() {
         </div>
         <div className="flex gap-2">
           <button
-            disabled={lang == "en"}
+            disabled={lang === "en"}
             style={
-              lang == "en"
+              lang === "en"
                 ? buttonSelectedStyleForLang
                 : buttonNotSelectedStyleForLang
             }
             onClick={() => handelLanguageSwitch()}
             className={`font-bold py-2 px-4 border-2 rounded-md border-black hover:bg-black ${
-              lang == "en"
+              lang === "en"
                 ? "text-white bg-black dark:text-bg-dark dark:bg-white"
                 : "text-black bg-white dark:text-white dark:bg-black"
             } hover:text-white dark:border-white dark:hover:bg-bg-light dark:hover:text-black origin-bottom transition-all duration-300 ease-in-out`}
@@ -321,15 +321,15 @@ export default function Header() {
             En
           </button>
           <button
-            disabled={lang == "fn"}
+            disabled={lang === "fn"}
             style={
-              lang == "fr"
+              lang === "fr"
                 ? buttonSelectedStyleForLang
                 : buttonNotSelectedStyleForLang
             }
             onClick={() => handelLanguageSwitch()}
             className={`font-bold py-2 px-4 border-2 rounded-md border-black hover:bg-black ${
-              lang == "fr"
+              lang === "fr"
                 ? "text-white bg-black dark:text-bg-dark dark:bg-white"
                 : "text-black bg-white dark:text-white dark:bg-black"
             } hover:text-white dark:border-white  dark:hover:bg-bg-light dark:hover:text-black origin-bottom transition-all duration-300 ease-in-out`}

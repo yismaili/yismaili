@@ -31,7 +31,7 @@ const Cursor = () => {
     return () => {
       document.body.removeEventListener("mousemove", handleMouseMove);
     };
-  }, []);
+  }, [mouseX, mouseY]);
 
   return <div className="cursor">{/* Cursor content */}</div>;
 };
@@ -56,7 +56,7 @@ export default function Home() {
         clearTimeout(delayTask); // Clear the timeout if the component unmounts
       };
     }
-  }, []);
+  }, [globalVariable]);
 
   const HandelNavClose = () => {
     setOpenlilmenu(false);

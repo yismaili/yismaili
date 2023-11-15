@@ -20,7 +20,7 @@ function PrivateRoutes({ Component }) {
 
     // Cleanup subscription on unmount
     return () => unsubscribe();
-  }, []);
+  }, [auth]);
 
   if (loading) {
     return null; // Or a loading spinner

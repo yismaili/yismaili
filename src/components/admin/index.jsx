@@ -32,11 +32,12 @@ export default function Admin() {
   return (
     <div className="flex h-screen">
       <div className="w-1/2 flex items-center justify-center">
-        <img
-          src={BG}
-          className="h-4/5 w-4/5 object-cover rounded-lg brightness-75"
-          alt="lock image"
+      <img
+            src={BG}
+            className="h-4/5 w-4/5 object-cover rounded-lg brightness-75"
+            alt="Unlock Your Imagination and Let Your Dreams Take Flight"
         />
+
         <div className="absolute top-1/2 left-1/4 transform -translate-x-1/2 -translate-y-1/2 text-white text-2xl font-bold text-center">
           <p>Unlock Your Imagination 🌟</p>
           <p>Let Your Dreams Take Flight 🌌</p>

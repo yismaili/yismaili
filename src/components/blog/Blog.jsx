@@ -17,7 +17,7 @@ export default function Blog() {
       console.log(data);
     });
     return () => unsubscribe();
-  }, []);
+  }, [data, id]);
 
   const updateLikeCount = () => {
     const blogRef = ref(database, "blogs/" + id);

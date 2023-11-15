@@ -26,7 +26,7 @@ export const OutroProvider = ({ children }) => {
       }
     );
     console.log(Data)
-  }, [globalVariable]); // Run this effect only once on component mount
+  }, [Data, globalVariable]); // Run this effect only once on component mount
 
   useEffect(() => {
     Papa.parse(
