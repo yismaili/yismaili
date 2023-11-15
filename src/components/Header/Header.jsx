@@ -26,12 +26,12 @@ export default function Header() {
   const [buttonStyle, setButtonStyle] = useState({});
   const [buttonSelectedStyleForTheme, setButtonSelectedStyleForTheme] =
     useState({});
-  const [buttonNotSelectedStyleForTheme, setButtonNotSelectedStyleForTheme] =
+  const [buttonNotSelectedStyleForTheme] =
     useState({});
-  const [buttonSelectedStyleForLang, setButtonSelectedStyleForLang] = useState(
+  const [buttonSelectedStyleForLang] = useState(
     {}
   );
-  const [buttonNotSelectedStyleForLang, setButtonNotSelectedStyleForLang] =
+  const [buttonNotSelectedStyleForLang] =
     useState({});
   const [isBlogAvailalble, setIsBlogAvailalble] = useState(false);
   useEffect(() => {

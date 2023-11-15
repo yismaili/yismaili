@@ -62,7 +62,7 @@ export default function Home() {
     setOpenlilmenu(false);
     setOpenMobileNav(false);
   };
-  
+
   return (
     <div onClick={HandelNavClose} className="bg-black cursor-default">
       <div className="shapes">
@@ -79,7 +79,7 @@ export default function Home() {
                 : "scale-y-0 delay-300"
             } transition-all ease-in-out duration-200 origin-top`}
           >
-            {t("hello")}
+            {t("Hello")}
           </h1>
         </div>
         <div>
@@ -90,7 +90,7 @@ export default function Home() {
                 : "scale-y-0 delay-200"
             } transition-all ease-in-out duration-200 origin-top`}
           >
-            {t("my_name_is")}
+            {t("my name is")}
           </h1>
           <h1
             className={`lg:text-5xl text-2xl font-bold ${
@@ -108,7 +108,7 @@ export default function Home() {
                 : "scale-y-0 delay-0"
             } transition-all ease-in-out duration-200  origin-top`}
           >
-            {t("i_am_full")}
+            {t("I'm backend dev")}
           </h1>
         </div>
       </div>
