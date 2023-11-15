@@ -75,7 +75,7 @@ export default function Work() {
           {filteredProjects && filteredProjects.length > 0 ? (
             <div className='p-4'>
               <ol className='group/list'>
-              {/* {filteredProjects.map((data) => (
+              {filteredProjects.map((data) => (
                 <ProjectCard
                   image={data.image}
                   link={data.link}
@@ -85,7 +85,7 @@ export default function Work() {
                   key={data.id}
                   isLoaded={isLoaded}
                 />
-              ))} */}
+              ))}
               </ol>
             </div>
           ) : (
