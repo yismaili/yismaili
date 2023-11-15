@@ -184,3 +184,8 @@ html.dark *::-webkit-scrollbar-thumb
 {
 	background-color: var(--background-color-light);	
 }
+
+.img-container {
+  max-width: 100%;
+  height: auto;
+}

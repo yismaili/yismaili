@@ -31,7 +31,7 @@ export default function Work() {
         clearTimeout(delayTask); // Clear the timeout if the component unmounts
       };
     }
-  }, [globalVariable, Data, Type])
+  }, [globalVariable, Type])
 
   useEffect(() => {
     setisLoaded(false);
@@ -45,7 +45,7 @@ export default function Work() {
     return () => {
       clearTimeout(timing);
     }
-  }, [Type, Data])
+  }, [Type])
   
   const HandelNavClose = () => {
     setOpenlilmenu(false);
@@ -66,16 +66,16 @@ export default function Work() {
           <div className="m-auto">
             <ul className='flex gap-2 text-[12px] lg:gap-5 lg:text-lg p-5'>
               <li className={`rounded-full ${Type === 0 ? 'border-b-2' : 'border-b-0'} hover:border-b-2 border-black dark:border-white text-black dark:text-white px-4 py-1 transition-all duration-100 ease-in-out`}><button onClick={()=>setType(0)}>{t('all')}</button></li>
-              <li className={`rounded-full ${Type === 1 ? 'border-b-2' : 'border-b-0'} hover:border-b-2 border-black dark:border-white text-black dark:text-white px-4 py-1 transition-all duration-100 ease-in-out`}><button onClick={()=>setType(1)}>Web</button></li>
-              <li className={`rounded-full ${Type === 2 ? 'border-b-2' : 'border-b-0'} hover:border-b-2 border-black dark:border-white text-black dark:text-white px-4 py-1 transition-all duration-100 ease-in-out`}><button onClick={()=>setType(2)}>Mobile</button></li>
-              <li className={`rounded-full ${Type === 3 ? 'border-b-2' : 'border-b-0'} hover:border-b-2 border-black dark:border-white text-black dark:text-white px-4 py-1 transition-all duration-100 ease-in-out`}><button onClick={()=>setType(3)}>UI/UX</button></li>
+              <li className={`rounded-full ${Type === 1 ? 'border-b-2' : 'border-b-0'} hover:border-b-2 border-black dark:border-white text-black dark:text-white px-4 py-1 transition-all duration-100 ease-in-out`}><button onClick={()=>setType(1)}>YO</button></li>
+              <li className={`rounded-full ${Type === 2 ? 'border-b-2' : 'border-b-0'} hover:border-b-2 border-black dark:border-white text-black dark:text-white px-4 py-1 transition-all duration-100 ease-in-out`}><button onClick={()=>setType(2)}>YO</button></li>
+              <li className={`rounded-full ${Type === 3 ? 'border-b-2' : 'border-b-0'} hover:border-b-2 border-black dark:border-white text-black dark:text-white px-4 py-1 transition-all duration-100 ease-in-out`}><button onClick={()=>setType(3)}>YO</button></li>
             </ul>
           </div>
         </div>
           {filteredProjects && filteredProjects.length > 0 ? (
             <div className='p-4'>
               <ol className='group/list'>
-              {filteredProjects.map((data) => (
+              {/* {filteredProjects.map((data) => (
                 <ProjectCard
                   image={data.image}
                   link={data.link}
@@ -85,7 +85,7 @@ export default function Work() {
                   key={data.id}
                   isLoaded={isLoaded}
                 />
-              ))}
+              ))} */}
               </ol>
             </div>
           ) : (

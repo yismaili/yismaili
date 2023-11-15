@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useOutroContext } from "../../Provider/OutroProvider";
-import ExperienceCard from "./ExperienceCard";
+// import ExperienceCard from "./ExperienceCard";
 import { FiArrowUpRight } from "react-icons/fi";
 import resen from "../../asset/yismaili.pdf";
 import resfr from "../../asset/yismaili.pdf";
@@ -82,16 +82,15 @@ export default function About() {
               <>{t("about").substring(0, 10)}</>
             ) : (
               <>
-
                 {t("about").substring(0, 5)}
-        
               </>
             )}
           </h1>
-            <img
-                src={me}
-                alt="younes ismaili's image"
-            />
+          
+          {/* eslint-disable-next-line*/}
+          <div style={{ maxWidth: "100%", height: "auto" }}>
+            <img src={me} alt="Younes Ismaili" />
+          </div>
         </div>
         <div className="h-1/2">
           <h1
@@ -103,9 +102,7 @@ export default function About() {
               <>{t("about").substring(0, 10)}</>
             ) : (
               <>
-                
                   {t("about").substring(0, 5)}
-           
               </>
             )}
           </h1>
