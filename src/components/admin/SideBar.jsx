@@ -1,5 +1,5 @@
 import React from "react";
-import LOGO from "../../asset/yismaili.jpg";
+import LOGO from "../../asset/yismaili-dark.png";
 import { ImBlog } from "react-icons/im";
 import { RiEditBoxFill } from "react-icons/ri";
 import { PiSignOutFill } from "react-icons/pi";

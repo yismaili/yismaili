@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { BiArrowBack } from "react-icons/bi";
-import BG from "../../asset/yismaili.jpg";
-import LOGO from "../../asset/yismaili.jpg";
+import BG from "../../asset/yismaili-dark.png";
+import LOGO from "../../asset/yismaili-dark.png";
 import { app } from "../config/firebase";
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 import { useNavigate } from "react-router-dom";

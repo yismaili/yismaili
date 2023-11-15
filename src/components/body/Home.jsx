@@ -3,6 +3,7 @@ import gsap from "gsap";
 import { useOutroContext } from "../../Provider/OutroProvider";
 import { useTranslation } from "react-i18next";
 
+
 const Cursor = () => {
   const [mouseX, setMouseX] = useState(0);
   const [mouseY, setMouseY] = useState(0);
@@ -79,7 +80,7 @@ export default function Home() {
                 : "scale-y-0 delay-300"
             } transition-all ease-in-out duration-200 origin-top`}
           >
-            {t("Hello")}
+            {t("hello")}
           </h1>
         </div>
         <div>
@@ -90,7 +91,7 @@ export default function Home() {
                 : "scale-y-0 delay-200"
             } transition-all ease-in-out duration-200 origin-top`}
           >
-            {t("I am")}
+            {t("my_name_is")}
           </h1>
           <h1
             className={`lg:text-5xl text-2xl font-bold ${
@@ -108,7 +109,7 @@ export default function Home() {
                 : "scale-y-0 delay-0"
             } transition-all ease-in-out duration-200  origin-top`}
           >
-            {t("I am a backend developer and DevOps engineer.")}
+            {t("i_am_full")}
           </h1>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import LOGO from "../../asset/yismaili.jpg";
-import LOGOWHITE from "../../asset/yismaili.jpg";
+import LOGO from "../../asset/yismaili-dark.png";
+import LOGOWHITE from "../../asset/yismaili.png";
 import { BiMenuAltRight, BiMoon, BiSun } from "react-icons/bi";
 import { PiDotsThreeOutlineVerticalBold } from "react-icons/pi";
 import { useNavigate, useLocation } from "react-router-dom";

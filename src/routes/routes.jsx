@@ -4,7 +4,7 @@ import Admin from "../components/admin";
 import Contact from "../components/body/Contact";
 import Header from "../components/Header/Header";
 import About from "../components/body/About";
-import Work from "../components/body/Work";
+import Work from "../components/body/Projects";
 import Dashboard from "../components/admin/dashboard";
 import PrivateRoutes from "./Private/PrivateRoutes";
 import Blog from "../components/blog/Blog";
