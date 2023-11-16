@@ -52,14 +52,16 @@ export default function Contact() {
             className="flex lg:gap-10 gap-2 text-2xl h-fit flex-col lg:flex-row"
           >
             <h1
-              className={`my-auto font-bold text-start text-bg-dark dark:text-bg-light origin-top ${
+              className={`font-bold my-2 text-start text-bg-dark dark:text-bg-light origin-top ${
                 isLoaded ? "scale-y-100 opacity-100" : "scale-y-0 opacity-0"
               } transition-all duration-300 ease-in-out delay-200`}
             >
               E-MAIL
-            </h1>{" "}
+            </h1>
+            <ul>
+            <li>
             <a
-              href="mailto:yismaili1337@gmail.com"
+              href="mailto:yo.ismailii@gmail.com"
               className={`flex gap-5 px-4 py-2 text-bg-dark dark:text-bg-light hover:bg-slate-100 dark:hover:bg-[#525252] rounded transition-all ease-in-out duration-200 lg:text-2xl text-xl origin-top ${
                 isLoaded
                   ? "scale-y-100 opacity-100 delay-50"
@@ -69,8 +71,25 @@ export default function Contact() {
               <p className="h-fit my-auto">
                 <FiArrowUpRight />
               </p>
-              <p>yismaili1337@gmail.com</p>
+              <p>yo.ismailii@gmail.com</p>
             </a>
+              </li>
+              <li>
+            <a
+              href="mailto:yismaili@student.1337.ma"
+              className={`flex gap-5 px-4 py-2 text-bg-dark dark:text-bg-light hover:bg-slate-100 dark:hover:bg-[#525252] rounded transition-all ease-in-out duration-200 lg:text-2xl text-xl origin-top ${
+                isLoaded
+                  ? "scale-y-100 opacity-100 delay-50"
+                  : "scale-y-0 opacity-0 delay-300"
+              } transition-all duration-300 ease-in-out`}
+            >
+              <p className="h-fit my-auto">
+                <FiArrowUpRight />
+              </p>
+              <p>yismaili@student.1337.ma</p>
+            </a>
+            </li>
+            </ul>
           </div>
           <div
             id="social"
@@ -101,7 +120,7 @@ export default function Contact() {
               </li>
               <li>
                 <a
-                  href="https://www.linkedin.com/in/yo-ismaili/"
+                  href="https://twitter.com/yoyo_ismaili"
                   className={`flex gap-5 px-4 py-2 text-bg-dark dark:text-bg-light hover:bg-slate-100 dark:hover:bg-[#525252] rounded transition-all ease-in-out duration-200 lg:text-2xl text-xl origin-top ${
                     isLoaded
                       ? "scale-y-100 opacity-100 delay-50"
@@ -111,7 +130,7 @@ export default function Contact() {
                   <p className="h-fit my-auto">
                     <FiArrowUpRight />
                   </p>
-                  <p>samething</p>
+                  <p>Twiter</p>
                 </a>
               </li>
             </ul>
