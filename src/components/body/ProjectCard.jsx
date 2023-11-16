@@ -3,7 +3,8 @@ import { FiArrowUpRight } from 'react-icons/fi'
 
 
 export default function ProjectCard({title, smdesc, link, techs, isLoaded }) {
-   // const techsArray = techs.split(',');
+   const techsArray = techs.split(',');
+   console.log(techsArray)
     const [Hovered, setHovered] = useState(false)
     return (
         <li className={`max-w-full ${Hovered ? 'dark:bg-[#525252] bg-gray-100' : ''} md:max-w-1/2 lg:max-w-1/4 m-2 p-3 border-2 lg:border-0 relative origin-top rounded-lg ${isLoaded ? 'scale-y-100 opacity-100' : 'scale-y-0 opacity-0'} transition-all duration-500 ease-in-out group lg:hover:!opacity-100 lg:group-hover/list:opacity-50`}>
@@ -20,9 +21,9 @@ export default function ProjectCard({title, smdesc, link, techs, isLoaded }) {
                             <p className={`capitalize text-bg-dark dark:text-bg-light origin-top ${isLoaded ? 'scale-y-100 opacity-100' : 'scale-y-0 opacity-0'} transition-all duration-150 ease-in-out delay-700`}>{smdesc}</p>
                         </div>
                         <div className={`grid grid-cols-2 lg:flex gap-3 origin-bottom  ${isLoaded ? 'scale-y-100 opacity-100' : 'scale-y-0 opacity-0'} transition-all duration-300 ease-in-out delay-700`}>
-                            {/* {techsArray.map((tech, index) => (
+                            {techsArray.map((tech, index) => (
                                 <p key={index} className='lg:px-4 lg:py-1 px-2 py-[2px] border-bg-dark text-bg-dark dark:border-bg-light dark:text-bg-light border-[1px] lg:border-[2px] rounded-full text-sm'>{tech}</p>
-                            ))} */}
+                            ))}
                         </div>
                     </div>
                 </div>
