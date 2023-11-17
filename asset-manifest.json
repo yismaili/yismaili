@@ -1,19 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.5b7a4d9d.css",
-    "main.js": "/static/js/main.ef450d10.js",
-    "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
-    "static/media/yismaili-1.jpg": "/static/media/yismaili-1.2e7cc8b5d9f2115cb60b.jpg",
+    "main.js": "/static/js/main.7003bea6.js",
+    "static/js/787.b2985073.chunk.js": "/static/js/787.b2985073.chunk.js",
     "static/media/yismaili.pdf": "/static/media/yismaili.afac3a0d73a5fb1aed3a.pdf",
     "static/media/yismaili.png": "/static/media/yismaili.91f54aa9cdf55931dcb8.png",
     "static/media/yismaili-dark.png": "/static/media/yismaili-dark.6987ebd092d3f7d7e6d9.png",
     "index.html": "/index.html",
     "main.5b7a4d9d.css.map": "/static/css/main.5b7a4d9d.css.map",
-    "main.ef450d10.js.map": "/static/js/main.ef450d10.js.map",
-    "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
+    "main.7003bea6.js.map": "/static/js/main.7003bea6.js.map",
+    "787.b2985073.chunk.js.map": "/static/js/787.b2985073.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5b7a4d9d.css",
-    "static/js/main.ef450d10.js"
+    "static/js/main.7003bea6.js"
   ]
 }
