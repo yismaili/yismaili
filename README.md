@@ -1,5 +1,6 @@
 ### Hi there 👋
-[me](https://yismaili.github.io/yismaili)
+<a href="https://yismaili.github.io/yismaili" target="_blank">Visit My Deployed React App</a>
+
 
 <!--
 **yismaili/yismaili** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
