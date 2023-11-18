@@ -1,0 +1,15 @@
+{
+  "hello": "HELLO",
+  "my_name_is": "I am",
+  "i_am_full": "I am a backend developer, and I am a student at 1337 School.",
+  "about": "ABOUT",
+  "bio": "<p>Hello, I'm Younes Ismaili, a student at 1337 School. I have successfully completed the Common Core program, gaining extensive knowledge in web development.</p><p>In addition to my expertise in web development, I have a solid foundation in Unix Systems, Object-oriented Programming, Network & System Administration, Graphics, and Algorithms. My passion extends to DevOps and Cybersecurity, areas where I am actively honing my skills.</p><p>You can find examples of my work and projects on my GitHub profile: <a href=\"https://github.com/yismaili\" target=\"_blank\">github.com/yismaili</a>. Having successfully completed the Common Core program, I am continuously refining my skills and staying updated on industry trends. I am open to connections for collaborative ventures and eager to explore future opportunities in the fields of DevOps, and Cybersecurity.</p>",
+  "blog": "Blog",
+  "projects": "Projects",
+  "all": "All",
+  "social_media": "SOCIAL MEDIA",
+  "header_about": "About",
+  "work": "Projects",
+  "header_contact": "Contact",
+  "cv" : "Download my resume."
+}

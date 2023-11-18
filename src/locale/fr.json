@@ -1,0 +1,15 @@
+{
+  "hello": "BONJOUR",
+  "my_name_is": "Je suis",
+  "i_am_full": "Je suis un développeur backend, et je suis étudiant à l'école 1337.",
+  "about": "À PROPOS",
+  "bio": "<p>Bonjour, je m'appelle Younes Ismaili, étudiant à l'école 1337. J'ai réussi avec succès le programme Common Core, acquérant une connaissance approfondie du développement web.</p><p>En plus de mon expertise en développement web, j'ai une base solide en systèmes Unix, programmation orientée objet, administration réseau et système, graphiques et algorithmes. Ma passion s'étend au DevOps et à la cybersécurité, domaines dans lesquels je perfectionne activement mes compétences.</p><p>Vous pouvez trouver des exemples de mon travail et de mes projets sur mon profil GitHub : <a href=\"https://github.com/yismaili\" target=\"_blank\">github.com/yismaili</a>. Ayant réussi le programme Common Core, je perfectionne continuellement mes compétences et reste informé des tendances de l'industrie. Je suis ouvert aux connexions pour des projets collaboratifs et enthousiaste à l'idée d'explorer des opportunités futures dans les domaines du DevOps et de la cybersécurité.</p>",
+  "blog": "Blog",
+  "projects": "Projets",
+  "all": "Tout",
+  "social_media": "MÉDIAS SOCIAUX",
+  "header_about": "À Propos",
+  "work": "Projets",
+  "header_contact": "Contact",
+  "cv" : "Téléchargez mon CV."
+}
