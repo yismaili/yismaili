@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/yismaili/static/css/main.5b7a4d9d.css",
+    "main.js": "/yismaili/static/js/main.b8d9c5ec.js",
+    "static/js/787.7da95b79.chunk.js": "/yismaili/static/js/787.7da95b79.chunk.js",
+    "static/media/yismaili-1.jpeg": "/yismaili/static/media/yismaili-1.fb14b55a3f77610658e4.jpeg",
+    "static/media/yismaili.pdf": "/yismaili/static/media/yismaili.714e99095ddd7c9a3956.pdf",
+    "static/media/yismaili.png": "/yismaili/static/media/yismaili.91f54aa9cdf55931dcb8.png",
+    "static/media/yismaili-dark.png": "/yismaili/static/media/yismaili-dark.6987ebd092d3f7d7e6d9.png",
+    "index.html": "/yismaili/index.html",
+    "main.5b7a4d9d.css.map": "/yismaili/static/css/main.5b7a4d9d.css.map",
+    "main.b8d9c5ec.js.map": "/yismaili/static/js/main.b8d9c5ec.js.map",
+    "787.7da95b79.chunk.js.map": "/yismaili/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b7a4d9d.css",
+    "static/js/main.b8d9c5ec.js"
+  ]
+}
